@@ -1,0 +1,497 @@
+{
+    "_id" : ObjectId("6735820628acad841fd65a3b"),
+    "docket_id" : ObjectId("6735820628acad841fd65a3a"),
+    "organisation_id" : ObjectId("637c5ccb089ac45bbf5abace"),
+    "department_id" : ObjectId("637c5ccb089ac45bbf5abacf"),
+    "user_id" : ObjectId("637c5ccc089ac45bbf5abad1"),
+    "status" : "Completed",
+    "type" : "workflow",
+    "document_source" : "local",
+    "signature_sequence" : "parallel",
+    "reviewer_sequence" : "parallel",
+    "created_by" : ObjectId("637c5ccc089ac45bbf5abad1"),
+    "created_at" : "2024-11-10T10:22:22+05:30",
+    "is_deleted" : false,
+    "next_signer_index" : 2,
+    "document_type" : "pdf",
+    "document_content" : null,
+    "document_reference_path" : null,
+    "estamp_request" : false,
+    "esign_initiated" : true,
+    "parent_document_id" : null,
+    "signature_type" : "digital",
+    "document_users" : [ 
+        {
+            "user_name" : "harish k r",
+            "email_id" : "harish.r@signdesk.com",
+            "mobile_number" : "8310428659",
+            "user_role" : "Signer",
+            "permissions" : {},
+            "access_type" : "direct",
+            "signature_sequence" : 1,
+            "status" : "Signed",
+            "email_notification" : true,
+            "user_id" : ObjectId("637c5ccc089ac45bbf5abad1"),
+            "external_user" : false,
+            "invited_by" : ObjectId("637c5ccc089ac45bbf5abad1"),
+            "is_imported" : "",
+            "expires_on" : "2024-11-12T23:59:59+05:30",
+            "created_at" : "2024-11-10T10:22:41+05:30",
+            "created_by" : ObjectId("637c5ccc089ac45bbf5abad1"),
+            "is_deleted" : false,
+            "signature_page" : "all",
+            "signature_position" : {
+                "page" : "all",
+                "appearance" : "bottom-left"
+            },
+            "electronic_signature_authentication" : null,
+            "signature_type" : "digital",
+            "remarks" : "NA",
+            "esign_type" : null,
+            "hsm_user_id" : null,
+            "cloudsign_user_id" : null,
+            "custom_user_role" : "Signer",
+            "signer_comment" : "",
+            "role_id" : "2",
+            "verification_info" : {
+                "status" : "completed",
+                "verification_type" : "video_record"
+            },
+            "signer_validation_inputs" : {
+                "last_four_digits_of_aadhaar" : "3192",
+                "name_as_per_aadhaar" : "harish k r"
+            },
+            "unique_id" : ObjectId("6735821993ee06203cff698c"),
+            "invited_at" : "2024-11-14T10:22:58+05:30",
+            "updated_at" : "2024-11-14T10:27:02+05:30",
+            "updated_by" : ObjectId("6735821993ee06203cff698c"),
+            "validation_info" : {
+                "status" : "success",
+                "validation" : [ 
+                    {
+                        "status" : "success",
+                        "field_name" : "Name",
+                        "value_passed" : "harish k r",
+                        "value_as_per_aadhaar" : "K R Harish",
+                        "percentage_match" : "85.71"
+                    }
+                ]
+            }
+        }
+    ],
+    "template_data_id" : null,
+    "template_id" : null,
+    "template_form_data" : [],
+    "contract_type" : "",
+    "accessible_by" : [],
+    "charge_for_workflow" : 0,
+    "charge_per_sign" : 0,
+    "source" : "simple-workflow",
+    "document_path" : "Dummy-locked_6735820628acad841fd65a3b_preview_v0.dat",
+    "latest_version_path" : "Dummy-locked_6735820628acad841fd65a3b_preview_v0_6735820628acad841fd65a3b_v1_0.dat",
+    "key_terms" : [ 
+        {
+            "key_term" : "",
+            "keyterm_id" : "100114163"
+        }, 
+        {
+            "key_term" : "",
+            "keyterm_id" : "100114163"
+        }
+    ],
+    "is_valid" : true,
+    "page_count" : 10,
+    "internal_signer_mandatory" : true,
+    "footer_height" : 0,
+    "header_height" : 0,
+    "dynamic_signature" : false,
+    "selected_language" : {
+        "code" : "en-IN",
+        "label" : "English",
+        "validation_pattern" : "^[a-zA-Z0-9 `’$:;|?*^%()_@&+-./'#\\s\n]+$"
+    },
+    "expires_on" : "2025-05-13T23:59:59+05:30",
+    "workflow_id" : "BJWF42822233",
+    "document_title" : "Dummy locked",
+    "workflow_custom_fields" : {},
+    "activity_log" : [ 
+        {
+            "action" : "Document Created",
+            "action_by" : ObjectId("637c5ccc089ac45bbf5abad1"),
+            "action_at" : "2024-11-10T10:22:22+05:30"
+        }, 
+        {
+            "action" : "Document viewed",
+            "action_by" : ObjectId("637c5ccc089ac45bbf5abad1"),
+            "action_at" : "2024-11-10T10:22:28+05:30",
+            "ip_address" : "{\"ip\":\"106.51.236.234\"}"
+        }, 
+        {
+            "action" : "Document viewed",
+            "action_by" : ObjectId("637c5ccc089ac45bbf5abad1"),
+            "action_at" : "2024-11-10T10:22:28+05:30",
+            "ip_address" : "{\"ip\":\"106.51.236.234\"}"
+        }, 
+        {
+            "action" : "Signer Created",
+            "action_by" : ObjectId("637c5ccc089ac45bbf5abad1"),
+            "action_at" : "2024-11-10T10:22:41+05:30",
+            "actionee" : ObjectId("6735821993ee06203cff698c")
+        }, 
+        {
+            "action" : "Edited",
+            "action_by" : ObjectId("637c5ccc089ac45bbf5abad1"),
+            "action_at" : "2024-11-10T10:22:56+05:30"
+        }, 
+        {
+            "action" : "Invited",
+            "actionee" : ObjectId("6735821993ee06203cff698c"),
+            "action_by" : ObjectId("637c5ccc089ac45bbf5abad1"),
+            "action_at" : "2024-11-10T10:22:58+05:30",
+            "ip_address" : "{\"ip\":\"106.51.236.234\"}"
+        }, 
+        {
+            "action" : "Document viewed",
+            "action_by" : ObjectId("6735821993ee06203cff698c"),
+            "action_at" : "2024-11-14T10:26:10+05:30",
+            "ip_address" : "{\"ip\":\"106.51.236.234\"}"
+        }, 
+        {
+            "action" : "Document viewed",
+            "action_by" : ObjectId("6735821993ee06203cff698c"),
+            "action_at" : "2024-11-14T10:26:10+05:30",
+            "ip_address" : "{\"ip\":\"106.51.236.234\"}"
+        }, 
+        {
+            "action" : "Signed",
+            "action_by" : ObjectId("6735821993ee06203cff698c"),
+            "action_at" : "2024-11-14T10:27:02+05:30",
+            "ip_address" : null
+        }, 
+        {
+            "action" : "Completed",
+            "action_by" : ObjectId("637c5ccc089ac45bbf5abad1"),
+            "action_at" : "2024-11-14T10:27:02+05:30",
+            "ip_address" : null
+        }
+    ],
+    "user_manager_options" : "1",
+    "user_custom_fields" : {
+        "user_manager_options" : "1"
+    },
+    "signature_appearance_version" : "1.0",
+    "mapped_documents" : [ 
+        {
+            "unique_id" : ObjectId("67358206c38e5d8528f53d1e"),
+            "document_name" : "Lockedfile_67358206c38e5d8528f53d1e.pdf",
+            "is_deleted" : false,
+            "is_valid" : true,
+            "document_filename" : {
+                "original" : "Lockedfile_67358206c38e5d8528f53d1e.pdf",
+                "formatted" : "Lockedfile_67358206c38e5d8528f53d1e.pdf"
+            },
+            "document_path" : "Lockedfile_67358206c38e5d8528f53d1e.dat",
+            "latest_version_path" : "Lockedfile_67358206c38e5d8528f53d1e.dat",
+            "file_size" : 0.0798368453979492,
+            "document_validity_info" : [ 
+                {
+                    "stage" : "uploaded",
+                    "page_count" : 9,
+                    "file_size" : "0.080",
+                    "valid" : true,
+                    "action_at" : "2024-11-14T10:22:22+05:30",
+                    "message" : "document is valid"
+                }
+            ],
+            "page_count" : 9
+        }, 
+        {
+            "unique_id" : ObjectId("67358206c38e5d8528f53d22"),
+            "document_name" : "dummy_67358206c38e5d8528f53d22.pdf",
+            "is_deleted" : false,
+            "is_valid" : true,
+            "document_filename" : {
+                "original" : "dummy_67358206c38e5d8528f53d22.pdf",
+                "formatted" : "dummy_67358206c38e5d8528f53d22.pdf"
+            },
+            "document_path" : "dummy_67358206c38e5d8528f53d22.dat",
+            "latest_version_path" : "dummy_67358206c38e5d8528f53d22.dat",
+            "file_size" : 0.00713157653808594,
+            "document_validity_info" : [ 
+                {
+                    "stage" : "uploaded",
+                    "page_count" : 1,
+                    "file_size" : "0.007",
+                    "valid" : true,
+                    "action_at" : "2024-11-14T10:22:23+05:30",
+                    "message" : "document is valid"
+                }
+            ],
+            "page_count" : 1
+        }
+    ],
+    "document_filename" : {
+        "original" : "Dummy-locked_6735820628acad841fd65a3b_preview_v0.pdf",
+        "formatted" : "Dummy-locked_6735820628acad841fd65a3b_preview_v0.pdf"
+    },
+    "document_name" : "Dummy-locked_6735820628acad841fd65a3b_preview_v0.pdf",
+    "document_validity_info" : [ 
+        {
+            "stage" : "uploaded",
+            "page_count" : 10,
+            "valid" : true,
+            "file_size" : "0.769",
+            "action_at" : "2024-11-14T10:22:28+05:30"
+        }, 
+        {
+            "stage" : "page_added",
+            "page_count" : 10,
+            "valid" : true,
+            "action_at" : "2024-11-14T10:22:58+05:30"
+        }, 
+        {
+            "stage" : "signed",
+            "valid" : true,
+            "action_at" : "2024-11-14T10:27:02+05:30"
+        }
+    ],
+    "connected_sockets" : [],
+    "affix_round_seal" : false,
+    "email_to_recipients" : [],
+    "final_copy_phone_number_list" : "",
+    "final_copy_rejection_list" : [],
+    "lock_info" : {
+        "locked_by" : ObjectId("637c5ccc089ac45bbf5abad1"),
+        "locked_at" : ISODate("2024-11-14T04:56:35.170Z")
+    },
+    "notification_email_list" : "",
+    "notification_phone_number_list" : "",
+    "selected_sms_languages" : [ 
+        "HI"
+    ],
+    "workflow_auto_reminder" : true,
+    "signerlist_length" : 4,
+    "invitation_log" : [ 
+        {
+            "type" : "sms",
+            "communication" : "sendInvitationToSigner",
+            "recipient" : "8310428659",
+            "response" : {
+                "status" : "OK",
+                "group_id" : "3450a287-b376-4990-a8e6-b3280b180f09",
+                "message" : "Accepted for delivery."
+            },
+            "action_at" : "2024-11-14T10:22:58+05:30"
+        }, 
+        {
+            "type" : "email",
+            "communication" : "sendInvitationToSigner",
+            "recipient" : "harish.r@signdesk.com",
+            "cc" : "",
+            "response" : {
+                "accepted" : [ 
+                    "harish.r@signdesk.com"
+                ],
+                "rejected" : [],
+                "ehlo" : [ 
+                    "8BITMIME", 
+                    "STARTTLS", 
+                    "AUTH PLAIN LOGIN", 
+                    "Ok"
+                ],
+                "envelopeTime" : 4,
+                "messageTime" : 86,
+                "messageSize" : 6433,
+                "response" : "250 Ok 01090193290477ef-5b91c7c1-cddb-4924-969c-5f33af840bdd-000000",
+                "envelope" : {
+                    "from" : "no-reply@signdesk.com",
+                    "to" : [ 
+                        "harish.r@signdesk.com"
+                    ]
+                },
+                "messageId" : "<e05ff966-596d-5790-37c4-86467b9bf6e6@signdesk.com>"
+            },
+            "messageId" : ObjectId("6735822b392868852fbb890b"),
+            "action_at" : "2024-11-14T10:22:59+05:30"
+        }, 
+        {
+            "type" : "sms",
+            "communication" : "finalCopy",
+            "recipient" : "8310428659",
+            "response" : {
+                "status" : "OK",
+                "group_id" : "66779988-e18d-415b-a965-de3fc70a173d",
+                "message" : "Accepted for delivery."
+            },
+            "action_at" : "2024-11-14T10:27:04+05:30"
+        }, 
+        {
+            "type" : "sms",
+            "communication" : "finalCopy",
+            "recipient" : "8310428659",
+            "response" : {
+                "status" : "OK",
+                "group_id" : "13541dc2-eae5-45ea-b993-2cdd5b655470",
+                "message" : "Accepted for delivery."
+            },
+            "action_at" : "2024-11-14T10:27:04+05:30"
+        }, 
+        {
+            "type" : "email",
+            "communication" : "finalCopy",
+            "recipient" : [ 
+                "harish.r@signdesk.com"
+            ],
+            "cc" : [ 
+                "pallavi.b@signdesk.com", 
+                "testingqa0201@gmail.com", 
+                "harish.r@signdesk.com", 
+                [ 
+                    "pallavi.b@signdesk.com", 
+                    "testingqa0201@gmail.com"
+                ]
+            ],
+            "bcc" : [],
+            "response" : {
+                "accepted" : [ 
+                    "harish.r@signdesk.com", 
+                    "pallavi.b@signdesk.com", 
+                    "testingqa0201@gmail.com"
+                ],
+                "rejected" : [],
+                "ehlo" : [ 
+                    "8BITMIME", 
+                    "STARTTLS", 
+                    "AUTH PLAIN LOGIN", 
+                    "Ok"
+                ],
+                "envelopeTime" : 11,
+                "messageTime" : 164,
+                "messageSize" : 400767,
+                "response" : "250 Ok 01090193290844b5-241ef9ba-bc41-4f7c-a329-a8be57a9223d-000000",
+                "envelope" : {
+                    "from" : "no-reply@signdesk.com",
+                    "to" : [ 
+                        "harish.r@signdesk.com", 
+                        "pallavi.b@signdesk.com", 
+                        "testingqa0201@gmail.com"
+                    ]
+                },
+                "messageId" : "<7c59c067-39d2-01e6-c94e-9d090ceed1df@signdesk.com>"
+            },
+            "messageId" : ObjectId("6735832452cca9855d07dd87"),
+            "action_at" : "2024-11-14T10:27:08+05:30"
+        }
+    ],
+    "signing_activity" : [ 
+        {
+            "action" : "Signing Initiated",
+            "signing_initiated_at" : "2024-11-14T10:26:35+05:30",
+            "signing_initiated_by" : ObjectId("6735821993ee06203cff698c")
+        }
+    ],
+    "signing_initiated" : true,
+    "signing_initiated_at" : "2024-11-14T10:26:35+05:30",
+    "signing_initiated_by" : ObjectId("6735821993ee06203cff698c"),
+    "completed_at" : "2024-11-14T10:27:02+05:30",
+    "audit_pushed_to_sftp" : true,
+    "audit_sftp_response" : [ 
+        {
+            "status" : "success",
+            "message" : "Successfully moved the file to SFTP",
+            "result" : "Uploaded data stream to home/test1/audit_trail_6735820628acad841fd65a3b.pdf",
+            "uploaded_at" : "2024-11-14T10:27:08+05:30",
+            "type" : "Audit"
+        }
+    ],
+    "final_copy_sent" : true,
+    "pushed_to_sftp" : true,
+    "sftp_response" : [ 
+        {
+            "status" : "success",
+            "message" : "Successfully moved the file to SFTP",
+            "result" : "Uploaded data stream to home/test1/6735820628acad841fd65a3b.pdf",
+            "uploaded_at" : "2024-11-14T10:27:08+05:30"
+        }
+    ],
+    "callback_logs" : [ 
+        {
+            "request" : {
+                "data" : {
+                    "status" : "success",
+                    "document_id" : ObjectId("6735820628acad841fd65a3b"),
+                    "initiated_at" : "2024-11-14T10:22:22+05:30",
+                    "completed_at" : "2024-11-14T10:27:02+05:30",
+                    "signer_info" : {
+                        "name" : "harish k r",
+                        "email" : "harish.r@signdesk.com",
+                        "mobile" : "8310428659",
+                        "last_four_digits_of_aadhaar" : "3192",
+                        "name_from_input_field" : "harish k r",
+                        "signer_name" : "harish k r",
+                        "gender" : "M",
+                        "last_digits_of_aadhaar" : "3192",
+                        "name_as_per_aadhaar" : "K R Harish",
+                        "postal_code" : "572105",
+                        "year_of_birth" : "1997"
+                    },
+                    "docket_id" : ObjectId("6735820628acad841fd65a3a")
+                }
+            },
+            "response" : {
+                "code" : 200,
+                "status" : "success",
+                "message" : "digital stamp"
+            },
+            "callback_type" : "individual",
+            "triggered_at" : "2024-11-14T10:27:09+05:30"
+        }, 
+        {
+            "request" : {
+                "status" : "success",
+                "document_id" : "6735820628acad841fd65a3b",
+                "initiated_at" : "2024-11-14T10:22:22+05:30",
+                "completed_at" : "2024-11-14T10:27:02+05:30",
+                "signer_info" : [ 
+                    {
+                        "name" : "harish k r",
+                        "email" : "harish.r@signdesk.com",
+                        "mobile" : "8310428659",
+                        "last_four_digits_of_aadhaar" : "3192",
+                        "name_from_input_field" : "harish k r",
+                        "signer_name" : "harish k r",
+                        "gender" : "M",
+                        "last_digits_of_aadhaar" : "3192",
+                        "name_as_per_aadhaar" : "K R Harish",
+                        "postal_code" : "572105",
+                        "year_of_birth" : "1997",
+                        "signer_id" : "6735821993ee06203cff698c",
+                        "validation_info" : {
+                            "name_as_per_aadhaar" : {
+                                "value_passed" : "harish k r",
+                                "value_as_per_aadhaar" : "K R Harish",
+                                "percentage_match" : "85.71"
+                            },
+                            "last_four_digits_of_aadhaar" : {
+                                "value_passed" : "3192",
+                                "value_as_per_aadhaar" : "3192"
+                            }
+                        }
+                    }
+                ],
+                "docket_id" : "6735820628acad841fd65a3a",
+                "custom_parameter" : {
+                    "source_system" : "eSign"
+                }
+            },
+            "response" : {
+                "code" : 200,
+                "status" : "success",
+                "message" : "digital stamp"
+            },
+            "callback_type" : "completed",
+            "triggered_at" : "2024-11-14T10:27:09+05:30"
+        }
+    ],
+    "is_eligible_to_delete" : true
+}
